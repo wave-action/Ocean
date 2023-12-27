@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f1c3f308_002D2fb8_002D497d_002D9794_002D296a19e60ba2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldGetAllKeywordKinds" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.TokenKindTests.ShouldGetAllKeywordKinds&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.TokenKindTests.ShouldGetTheCorrectValuesFromKind&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.TokenTest.ShouldHaveTheSameAsTheExplicit&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldTokenizeOneChar&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldTokenizeMultipleChars&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldTokenizeIdentifier&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldTokenizeInteger&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldTokenizeComment&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldTokenizeWhitespaces&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldIgnoreWhitespacesAndComments&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldTokenizeExpressionWithIdentifiersAndBraces&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldAHoleProgram&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldTokenizeKeywords&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
