@@ -16,7 +16,7 @@ public partial class Parser
     
     public Parser(IEnumerable<Token> tokens)
     {
-        _tokens = tokens.ToArray();
+        _tokens = tokens.Where(t => !t.Kind.IsSkippable()).ToArray();
 
         _compoundExprFuncs = new Dictionary<TokenKind, Func<Expression>>
         {

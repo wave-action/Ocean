@@ -70,4 +70,16 @@ public static class TokenKindExtensions
             _ => kind.ToString(),
         };
     }
+
+    public static bool IsSkippable(this TokenKind kind)
+    {
+        switch (kind)
+        {
+            case TokenKind.Whitespace:
+            case TokenKind.Comment:
+                return true;
+            
+            default: return false;
+        }
+    }
 }

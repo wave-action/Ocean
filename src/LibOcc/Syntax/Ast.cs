@@ -47,11 +47,11 @@ public class DefnStatement(
     Token token,
     IdentifierExpression name,
     List<IdentifierExpression> args,
-    Expression body) : Statement(token)
+    Expression? body) : Statement(token)
 {
     public IdentifierExpression Name { get; init; } = name;
     public List<IdentifierExpression> Args { get; init; } = args;
-    public Expression Body { get; init; } = body;
+    public Expression? Body { get; init; } = body;
 }
 
 public class ExpressionStatement(Expression expression) : Statement(expression.Token)

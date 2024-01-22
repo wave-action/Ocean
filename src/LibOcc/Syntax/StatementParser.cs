@@ -27,7 +27,7 @@ public partial class Parser
     private DefnStatement ParseDefnStatement()
     {
         var startToken = ExpectToken(TokenKind.LeftParen); // Skip (
-        ExpectToken(TokenKind.Defn); // Skip defun
+        ExpectToken(TokenKind.Defn); // Skip defn
         
         var name = ExpectToken(TokenKind.Identifier);
 
@@ -39,18 +39,14 @@ public partial class Parser
             argsTokens.Add(arg);
         }
         ExpectToken(TokenKind.RightBracket); // Skip ]
-        
-        // TODO: Parse expression
-        while (Current.Kind != TokenKind.RightParen)
-        {
-            Next();
-        }
+
+        var body = ParseExpression();
 
         ExpectToken(TokenKind.RightParen); // Skip )
 
         var nameIdentifier = new IdentifierExpression(name);
         var argsIdentifiers = argsTokens.Select(x => new IdentifierExpression(x)).ToList();
 
-        return new DefnStatement(startToken, nameIdentifier, argsIdentifiers, nameIdentifier);
+        return new DefnStatement(startToken, nameIdentifier, argsIdentifiers, body);
     }
 }

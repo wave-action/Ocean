@@ -47,12 +47,16 @@ public partial class Parser
 
     private IntegerExpression ParseIntExpression()
     {
-        throw new NotImplementedException();
+        var token = ExpectToken(TokenKind.Int);
+
+        return new IntegerExpression(token);
     }
 
     private IdentifierExpression ParseIdentifierExpression()
     {
-        throw new NotImplementedException();
+        var token = ExpectToken(TokenKind.Identifier);
+
+        return new IdentifierExpression(token);
     }
 
     private CallExpression ParseCallExpression()

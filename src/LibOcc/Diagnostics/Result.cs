@@ -7,19 +7,22 @@ public class Result<A, E>
     public A? Value { get; init; }
     public E? Error { get; init; }
 
-    private Result(A? value, E? err)
+    private bool _err;
+
+    private Result(A? value, E? err, bool isErr = false)
     {
         Value = value;
         Error = err;
+        _err = isErr;
     }
 
     public static Result<A, E> Ok(A value) =>
         new(value, default(E));
 
     public static Result<A, E> Err(E err) =>
-        new(default(A), err);
+        new(default(A), err, true);
 
-    public bool IsErr() => Error is not null;
+    public bool IsErr() => _err;
 
     public Result<B, E> Map<B>(Func<A, B> f)
     {

@@ -15,5 +15,7 @@
     &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldAHoleProgram&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests.ShouldTokenizeKeywords&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.LexerTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.ParserTests.ParseLiterals&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9B6C8945-DDE0-4062-8F96-42EF8ED2D07F::net8.0::LibOcc.Test.Syntax.ParserTests.ParseDefStatement&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
