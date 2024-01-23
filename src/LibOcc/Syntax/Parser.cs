@@ -50,7 +50,7 @@ public partial class Parser
     private Token Peek(int offset)
     {
         var pos = _pos + offset;
-        return pos <= _tokens.Length ? _tokens[pos] : _tokens.Last();
+        return pos < _tokens.Length ? _tokens[pos] : _tokens.Last();
     }
     
     private void Next() => _pos += 1;

@@ -40,7 +40,9 @@ public partial class Parser
         }
         ExpectToken(TokenKind.RightBracket); // Skip ]
 
-        var body = ParseExpression();
+        var body = Current.Kind != TokenKind.RightParen ?
+            ParseExpression() 
+            : null;
 
         ExpectToken(TokenKind.RightParen); // Skip )
 
